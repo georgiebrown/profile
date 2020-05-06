@@ -1,0 +1,65 @@
+body {
+  background: #F4F1DE;
+  font-family: 'Manrope', sans-serif;
+  background: #3626A7;
+
+}
+
+h1 {
+  color: #3626A7;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  color: #F5B841;
+}
+
+a {
+  color: #483C46;
+}
+
+a:hover {
+  color: #F5B841;
+}
+
+p {
+  font-size: 1em;
+  color: #483C46;
+}
+
+.container {
+  max-width: 100%;
+  padding: 5%;
+  margin: 0 auto;
+}
+
+.card{
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  background: white;
+  padding: 3%;
+  border-radius: 5px;
+  box-shadow: 5px 5px #F5B841;
+}
+
+#logo_picture {
+  width: 200px;
+  border-radius: 150px;
+  border: 5px solid #F5B841;
+}
+
+.social_icon{
+  width: 20px;
+}
+
+.default_list{
+  list-style: none;
+  padding: 0;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  #logo_picture {
+    width: 100px;
+  }
